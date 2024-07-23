@@ -1,7 +1,7 @@
 import React from 'react';
 
-const DataTable = () => {
+const Batches = () => {
   return <div className="h-full">DataTable</div>;
 };
 
-export default DataTable;
+export default Batches;
