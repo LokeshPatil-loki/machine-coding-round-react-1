@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Root from '../pages/Root';
 import OtpForm from '../pages/OtpForm';
-import DragAndDropCard from '../pages/DragAndDropCard';
-import DataTable from '../pages/DataTable';
+import CourseList from '../pages/CourseList';
+import Batches from '../pages/Batches';
 
 export const router = createBrowserRouter([
   {
@@ -10,16 +10,17 @@ export const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        index: true,
+        path: '/otp-form',
         element: <OtpForm />,
       },
       {
-        path: 'dragndrop',
-        element: <DragAndDropCard />,
+        path: '/course-list',
+        element: <CourseList />,
       },
       {
-        path: 'table',
-        element: <DataTable />,
+        // path: 'batches',
+        index: true,
+        element: <Batches />,
       },
     ],
   },
