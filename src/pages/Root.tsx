@@ -4,9 +4,12 @@ import React from 'react';
 
 const Root = () => {
   return (
-    <div className="">
+    <>
       <Outlet />
-    </div>
+      <a href="https://chaicode.com" className="fixed w-24 right-5 bottom-5">
+        <img src="public/images/chaicode.png" />
+      </a>
+    </>
   );
 };
 
