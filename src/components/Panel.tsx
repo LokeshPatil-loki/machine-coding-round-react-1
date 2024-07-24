@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React, { ReactNode } from 'react';
 interface PanelProps {
-  children: ReactNode;
+  children?: ReactNode;
   title: string;
   subtitle: string;
   className?: string;
@@ -15,8 +15,8 @@ const Panel = ({ children, title, subtitle, className }: PanelProps) => {
         className,
       )}
     >
-      <div className="mb-4">
-        <h1 className="text-4xl font-bold">{title}</h1>
+      <div className="flex flex-col gap-2 mb-4">
+        <h1 className="text-4xl font-bold text-title">{title}</h1>
         <div className="text-subtitle">{subtitle}</div>
       </div>
       {children}
