@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import Header from '../components/Header';
 import Panel from '../components/Panel';
 import SearchInput from '../components/SearchInput';
@@ -41,8 +41,8 @@ const Batches = () => {
     }
   };
 
-  const handleChangeDropDown = (page: number) => {
-    setCurrentPage(page);
+  const handleChangeDropDown = (count: number) => {
+    setRecordsPerPage(count);
   };
 
   // Handle Events
@@ -62,7 +62,7 @@ const Batches = () => {
     }
   };
 
-  const dropDownConfig = Array(numberOfPages)
+  const dropDownConfig = Array(10)
     .fill(0)
     .map((_, index) => {
       return { label: index + 1, value: index + 1 };
@@ -103,7 +103,7 @@ const Batches = () => {
             <div className="text-xs">Rows Per Page</div>
             <DropDown
               onChange={handleChangeDropDown}
-              value={currentPage}
+              value={recordsPerPage}
               config={dropDownConfig}
             />
             <div className="flex ">

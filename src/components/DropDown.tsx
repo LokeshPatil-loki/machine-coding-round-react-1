@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { FaAngleDown } from 'react-icons/fa';
+import { useState } from 'react';
 
 interface DropDownProps {
   value: string | number;
@@ -18,7 +18,7 @@ const DropDown = ({ value, config, onChange }: DropDownProps) => {
   };
 
   const handleClick = () => {
-    setShowDropdown(true);
+    setShowDropdown(!showDropdown);
   };
   return (
     <div className="relative">
@@ -32,11 +32,11 @@ const DropDown = ({ value, config, onChange }: DropDownProps) => {
       {showDropdown && (
         <div
           role="menu"
-          className="absolute flex flex-col items-center justify-center w-full h-20 pt-10 mt-1 overflow-auto bg-white border rounded shadow "
+          className="absolute flex flex-col items-center justify-center w-full h-20 pt-20 mt-1 overflow-auto bg-white border rounded shadow "
         >
           {config.map((item) => (
             <div
-              onClick={(e) => handleChnage(item.value as number)}
+              onClick={() => handleChnage(item.value as number)}
               className="w-full text-xs text-center cursor-pointer hover:bg-gray-100"
             >
               {item.label}

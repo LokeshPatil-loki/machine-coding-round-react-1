@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../components/Header';
 import Panel from '../components/Panel';
 import { Link } from 'react-router-dom';
@@ -30,10 +29,10 @@ const HomePage = () => {
           </Link>
           <Link
             className="flex gap-4 p-4 text-3xl font-bold bg-gray-100 border rounded shadow-lg cursor-pointer text-deep-navy "
-            to={'/otp-form'}
+            to={'/batches'}
           >
             <FaHandPointRight className="text-deep-navy" />
-            <div>OTP Form</div>
+            <div>Batches</div>
           </Link>
         </div>
       </Panel>
