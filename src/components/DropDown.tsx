@@ -32,7 +32,7 @@ const DropDown = ({ value, config, onChange }: DropDownProps) => {
       {showDropdown && (
         <div
           role="menu"
-          className="absolute flex flex-col items-center justify-center w-full mt-1 bg-white border rounded shadow "
+          className="absolute flex flex-col items-center justify-center w-full h-20 pt-10 mt-1 overflow-auto bg-white border rounded shadow "
         >
           {config.map((item) => (
             <div
