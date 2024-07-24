@@ -3,44 +3,9 @@ import Header from '../components/Header';
 import Panel from '../components/Panel';
 import { Product } from '../types/Product';
 import ProductListItem from '../components/ProductListItem';
+import productData from '../data/products.json';
 
-const data: Product[] = [
-  {
-    id: 1,
-    title: 'Interview preparation with JavaScript 2.0',
-    price: 9000,
-    type: 'Course',
-    imgUrl: 'images/products/product-1.png',
-  },
-  {
-    id: 2,
-    title: 'Aptitude - Averages, Mixtures & Allegation',
-    price: 0,
-    type: 'Mock Test',
-    imgUrl: 'images/products/product-2.png',
-  },
-  {
-    id: 3,
-    title: 'Aptitude - Simple & Compound Interest',
-    price: 0,
-    type: 'Mock Test',
-    imgUrl: 'images/products/product-3.png',
-  },
-  {
-    id: 4,
-    title: 'Aptitude Partnership',
-    price: 0,
-    type: 'Mock Test',
-    imgUrl: 'images/products/product-4.png',
-  },
-  {
-    id: 5,
-    title: 'Aptitude - Time & Work',
-    price: 0,
-    type: 'Mock Test',
-    imgUrl: 'images/products/product-5.png',
-  },
-];
+const data: Product[] = productData;
 
 function swapArrayElement<T>(arr: T[], index1: number, index2: number): T[] {
   let temp = arr[index1];
