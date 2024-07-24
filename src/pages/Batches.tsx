@@ -7,12 +7,21 @@ import batchData from '../data/batches.json';
 import { Batch } from '../types/Batch';
 
 const Batches = () => {
+  const [data, setData] = useState<Batch[] | []>(batchData || []);
   const [searchText, setSearchText] = useState('');
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchText(e.target.value);
   };
   const handleSubmit = () => {
-    console.log(searchText);
+    if (searchText) {
+      let filteredData = batchData.filter((batch) => {
+        let title = batch.title.toLowerCase();
+        return title.includes(searchText.toLowerCase());
+      });
+      setData(filteredData);
+    } else {
+      setData(batchData);
+    }
   };
 
   return (
@@ -30,7 +39,7 @@ const Batches = () => {
               onChange={handleChange}
               onSubmit={handleSubmit}
             />
-            <Table data={batchData} />
+            <Table data={data} />
           </div>
         </Panel>
       </div>
