@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from 'react';
+import React, { ChangeEvent, useEffect, useRef, useState } from 'react';
 import Header from '../components/Header';
 import Panel from '../components/Panel';
 import SearchInput from '../components/SearchInput';
@@ -10,6 +10,9 @@ import { MdArrowBackIos, MdArrowForwardIos } from 'react-icons/md';
 import classNames from 'classnames';
 
 const Batches = () => {
+  // ref
+  const searchRef = useRef<HTMLInputElement | null>(null);
+
   const [data, setData] = useState<Batch[] | []>(batchData);
   const [searchText, setSearchText] = useState('');
 
@@ -65,7 +68,18 @@ const Batches = () => {
       return { label: index + 1, value: index + 1 };
     });
 
-  console.log(dropDownConfig);
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      let isMetaKeyPressed = e.metaKey || e.altKey;
+      if (isMetaKeyPressed && e.key.toLowerCase() === 'k') {
+        searchRef.current?.focus();
+      }
+    };
+    document.addEventListener('keydown', handler);
+    return () => {
+      document.removeEventListener('keydown', handler);
+    };
+  }, []);
 
   return (
     <div className="w-full min-h-full overflow-hidden bg-light-lavendar">
@@ -78,6 +92,7 @@ const Batches = () => {
         >
           <div className="flex flex-col gap-5 ">
             <SearchInput
+              ref={searchRef}
               value={searchText}
               onChange={handleChange}
               onSubmit={handleSubmit}
