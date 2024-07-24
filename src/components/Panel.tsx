@@ -11,7 +11,7 @@ const Panel = ({ children, title, subtitle, className }: PanelProps) => {
   return (
     <div
       className={classNames(
-        'xl:w- font-dm-sans p-6 m-auto bg-white rounded-xl shadow-md',
+        'font-dm-sans p-6 m-auto bg-white rounded-xl shadow-md',
         className,
       )}
     >

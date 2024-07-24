@@ -38,7 +38,7 @@ const ProductListItem = ({
 
   return (
     <div
-      className="relative flex justify-between px-3 py-2 border shadow-md lg:w-5/6 rounded-xl"
+      className="relative flex justify-between px-3 py-2 border shadow-md rounded-xl"
       {...rest}
     >
       <div className="flex items-center justify-center gap-3">

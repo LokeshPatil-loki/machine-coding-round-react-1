@@ -103,14 +103,17 @@ const CourseList = () => {
   ));
 
   return (
-    <div className="w-full h-full overflow-hidden bg-mint-green">
+    <div className="w-full min-h-full overflow-hidden bg-mint-green">
       <Header className="text-forest-green" />
       <div className="w-full h-full p-10 pt-0">
         <Panel
           title="Manage Bundle"
           subtitle="Change order of the products based on priority"
+          className="max-w-5xl "
         >
-          <div className="flex flex-col gap-2">{renderedProducts}</div>
+          <div className="flex flex-col max-w-4xl gap-2 xl:mr-16">
+            {renderedProducts}
+          </div>
         </Panel>
       </div>
     </div>
