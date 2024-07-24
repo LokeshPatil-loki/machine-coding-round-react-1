@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Interview Preparation with javascript 2.0",
+    "id": 198599,
+    "startDate": "2024-08-01T18:30:00.000Z",
+    "endDate": "2024-09-14T18:30:00.000Z",
+    "price": 10000,
+    "validity": 45,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/198599/1720795627193batch2_lyst1720795627201.png"
+  },
+  {
+    "title": "30 days of Javascript challenge",
+    "id": 198942,
+    "startDate": "2024-07-12T18:30:00.000Z",
+    "endDate": "2024-08-11T18:30:00.000Z",
+    "price": 0,
+    "validity": 31,
+    "status": "Unpublished",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/198942/1720613137821jscha_lyst1720613137832.png"
+  },
+  {
+    "title": "Chai aur HTML in Hindi",
+    "id": 192354,
+    "startDate": "2024-08-15T10:00:00.000Z",
+    "endDate": "2024-09-15T10:00:00.000Z",
+    "price": 1500,
+    "validity": 32,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192354/1715539644975html_course_lyst1715539644983.png"
+  },
+  {
+    "title": "Chai aur JavaScript in Hindi",
+    "id": 192355,
+    "startDate": "2024-09-01T09:00:00.000Z",
+    "endDate": "2024-10-31T09:00:00.000Z",
+    "price": 2000,
+    "validity": 61,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192355/1715539932382JS_lyst1715539932391.png"
+  },
+  {
+    "title": "Chai aur Django in Hindi",
+    "id": 193291,
+    "startDate": "2024-08-20T14:00:00.000Z",
+    "endDate": "2024-09-20T14:00:00.000Z",
+    "price": 1800,
+    "validity": 32,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/193291/1715907975082django_lyst1715907975091.png"
+  },
+  {
+    "title": "Buy me a tea",
+    "id": 193293,
+    "startDate": "2024-07-30T00:00:00.000Z",
+    "endDate": "2024-08-30T00:00:00.000Z",
+    "price": 199,
+    "validity": 32,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/193293/1715909997799tea_lyst1715909997811.png"
+  },
+  {
+    "title": "Chai aur React in Hindi",
+    "id": 192471,
+    "startDate": "2024-09-10T12:00:00.000Z",
+    "endDate": "2024-11-10T12:00:00.000Z",
+    "price": 2500,
+    "validity": 62,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192471/1715540075184react_lyst1715540075193.png"
+  },
+  {
+    "title": "Javascript Backend in Hindi",
+    "id": 192486,
+    "startDate": "2024-08-05T15:30:00.000Z",
+    "endDate": "2024-10-05T15:30:00.000Z",
+    "price": 2200,
+    "validity": 62,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192486/1715540418478backend_lyst1715540418485.png"
+  },
+  {
+    "title": "Complete Backend development with Javascript",
+    "id": 193290,
+    "startDate": "2024-09-15T11:00:00.000Z",
+    "endDate": "2024-11-15T11:00:00.000Z",
+    "price": 3000,
+    "validity": 62,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/193290/1715907606917backend_lyst1715907606929.png"
+  },
+  {
+    "title": "NextJS music academy project | Chai aur NextJS in Hindi",
+    "id": 192490,
+    "startDate": "2024-10-01T13:00:00.000Z",
+    "endDate": "2024-11-15T13:00:00.000Z",
+    "price": 1800,
+    "validity": 46,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192490/1715540915178NextMusic_lyst1715540915185.png"
+  },
+  {
+    "title": "NextAuth with MongoDB | chai aur NextJS in Hindi",
+    "id": 192491,
+    "startDate": "2024-09-20T10:30:00.000Z",
+    "endDate": "2024-11-20T10:30:00.000Z",
+    "price": 2100,
+    "validity": 62,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192491/1715541058644nextauth_lyst1715541058652.png"
+  },
+  {
+    "title": "Chai aur full stack NextJS in Hindi",
+    "id": 192492,
+    "startDate": "2024-10-15T09:00:00.000Z",
+    "endDate": "2024-12-15T09:00:00.000Z",
+    "price": 3500,
+    "validity": 62,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192492/1715541284299Nextfullstack_lyst1715541284308.png"
+  },
+  {
+    "title": "Chai aur Python in Hindi",
+    "id": 192488,
+    "startDate": "2024-08-25T14:00:00.000Z",
+    "endDate": "2024-10-25T14:00:00.000Z",
+    "price": 2300,
+    "validity": 62,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/192488/1715540746871python_lyst1715540746880.png"
+  },
+  {
+    "title": "Daily Quiz 23rd July 2024",
+    "id": 200061,
+    "startDate": "2024-07-23T13:30:00.000Z",
+    "endDate": "2024-07-23T13:55:00.000Z",
+    "price": 0,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200061/17214596644982_lyst1721459664504.png"
+  },
+  {
+    "title": "Interview Preparation with Aptitude and DBMS",
+    "id": 200169,
+    "startDate": "2024-07-21T13:30:00.000Z",
+    "endDate": "2024-07-21T14:30:00.000Z",
+    "price": 500,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200169/1721560958921chai_code_website_lyst1721560958931.png"
+  },
+  {
+    "title": "Daily Quiz 24th July 2024",
+    "id": 200168,
+    "startDate": "2024-07-24T13:30:00.000Z",
+    "endDate": "2024-07-24T13:55:00.000Z",
+    "price": 0,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200168/1721543019688Daily_quiz_lyst1721543019703.png"
+  },
+  {
+    "title": "Daily Quiz 25th July 2024",
+    "id": 200446,
+    "startDate": "2024-07-25T13:30:00.000Z",
+    "endDate": "2024-07-25T13:55:00.000Z",
+    "price": 0,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200446/1721715616194Daily_quiz_lyst1721715616206.png"
+  },
+  {
+    "title": "Daily Quiz 26th July 2024",
+    "id": 200455,
+    "startDate": "2024-07-26T13:30:00.000Z",
+    "endDate": "2024-07-26T13:55:00.000Z",
+    "price": 0,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200455/17217168320015_lyst1721716832007.png"
+  },
+  {
+    "title": "Daily Quiz 27th July 2024",
+    "id": 200464,
+    "startDate": "2024-07-27T13:30:00.000Z",
+    "endDate": "2024-07-27T13:55:00.000Z",
+    "price": 0,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200464/1721719201404Daily_quiz__1__lyst1721719201411.png"
+  },
+  {
+    "title": "Daily Quiz 22nd July 2024",
+    "id": 200041,
+    "startDate": "2024-07-22T13:30:00.000Z",
+    "endDate": "2024-07-22T13:40:00.000Z",
+    "price": 0,
+    "validity": 1,
+    "status": "Published",
+    "imgUrl": "https://imgproxy.learnyst.com/learnyst-user-assets/school-assets/schools/171024/courses/200041/17214587250602_lyst1721458725067.png"
+  }
+]
