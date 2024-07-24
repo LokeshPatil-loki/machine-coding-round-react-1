@@ -3,5 +3,5 @@ export interface Product {
   imgUrl: string;
   title: string;
   price: number;
-  type: 'Course' | 'Mock Test';
+  type: string;
 }
