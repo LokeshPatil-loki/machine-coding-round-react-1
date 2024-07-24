@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 import Header from '../components/Header';
 import OTPInput from '../components/OTPInput';
 import classNames from 'classnames';

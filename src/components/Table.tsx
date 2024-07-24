@@ -1,4 +1,4 @@
-import React, { TableHTMLAttributes } from 'react';
+import { TableHTMLAttributes } from 'react';
 import { Batch } from '../types/Batch';
 import classNames from 'classnames';
 
@@ -12,7 +12,7 @@ function formatDate(dateString: string) {
 }
 
 function formatPrice(price: number) {
-  const [integerPart, decimalPart] = price.toFixed(2).split('.');
+  const [integerPart, _] = price.toFixed(2).split('.');
 
   const formattedInteger = integerPart.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 

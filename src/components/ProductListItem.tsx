@@ -53,7 +53,7 @@ const ProductListItem = ({
         <div className="px-2 py-1 text-sm rounded-md bg-pale-mint-green">
           {product.type}
         </div>
-        <button onClick={(e) => setShowMenu((prev) => !prev)}>
+        <button onClick={() => setShowMenu((prev) => !prev)}>
           {/* <img src="images/3-dots.svg"></img> */}
           <HiDotsVertical className="text-xl" />
         </button>

@@ -1,4 +1,4 @@
-import React, { FormEvent, forwardRef, InputHTMLAttributes } from 'react';
+import { FormEvent, forwardRef, InputHTMLAttributes } from 'react';
 
 interface SearchInputProps extends InputHTMLAttributes<HTMLInputElement> {
   onSubmit: () => void;
