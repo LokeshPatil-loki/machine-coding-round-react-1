@@ -5,7 +5,7 @@ const Root = () => {
     <>
       <Outlet />
       <a href="https://chaicode.com" className="fixed w-24 right-5 bottom-5">
-        <img src="public/images/chaicode.png" />
+        <img src="images/chaicode.png" />
       </a>
     </>
   );
