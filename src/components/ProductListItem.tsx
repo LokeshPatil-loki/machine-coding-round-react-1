@@ -58,7 +58,7 @@ const ProductListItem = ({
           <HiDotsVertical className="text-xl" />
         </button>
         {showMenu && (
-          <div className="absolute right-0 z-10 flex flex-col items-start justify-center gap-2 p-4 bg-white border shadow-md top-12 rounded-xl w-44">
+          <div className="absolute right-0 z-10 flex flex-col items-start justify-center w-48 gap-2 p-4 bg-white border shadow-md top-12 rounded-xl">
             <button
               onClick={() => handleMoveTop(index)}
               className="flex items-center justify-center gap-2"
